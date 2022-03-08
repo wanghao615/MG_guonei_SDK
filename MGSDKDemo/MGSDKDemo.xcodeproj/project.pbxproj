@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6955C323A8C74E0081EB90 /* AWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6955C223A8C74E0081EB90 /* AWSDK.framework */; };
+		20E067912468EE38003D978E /* MGSalesAccountView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20E067902468EE38003D978E /* MGSalesAccountView.nib */; };
+		7E1DB2001FB5B0AD00139979 /* AWSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E1DB1FE1FB5B0AD00139979 /* AWSDKResources.bundle */; };
+		7EA2B8F71F9C9D70002DC6E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2B8F61F9C9D70002DC6E9 /* main.m */; };
+		7EA2B8FA1F9C9D70002DC6E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2B8F91F9C9D70002DC6E9 /* AppDelegate.m */; };
+		7EA2B8FD1F9C9D70002DC6E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2B8FC1F9C9D70002DC6E9 /* ViewController.m */; };
+		7EA2B9001F9C9D70002DC6E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA2B8FE1F9C9D70002DC6E9 /* Main.storyboard */; };
+		7EA2B9021F9C9D70002DC6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA2B9011F9C9D70002DC6E9 /* Assets.xcassets */; };
+		7EA2B9051F9C9D70002DC6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA2B9031F9C9D70002DC6E9 /* LaunchScreen.storyboard */; };
+		7EA2B9151F9C9EA2002DC6E9 /* MGIAPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2B9121F9C9EA2002DC6E9 /* MGIAPTestViewController.m */; };
+		7EA2B9161F9C9EA2002DC6E9 /* MGTestRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2B9141F9C9EA2002DC6E9 /* MGTestRootViewController.m */; };
+		7EA2B91E1F9CAEEC002DC6E9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA2B91D1F9CAEEC002DC6E9 /* libsqlite3.tbd */; };
+		7EA2B9201F9CAF02002DC6E9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA2B91F1F9CAF02002DC6E9 /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A6955C223A8C74E0081EB90 /* AWSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSDK.framework; sourceTree = "<group>"; };
+		20E067902468EE38003D978E /* MGSalesAccountView.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MGSalesAccountView.nib; sourceTree = "<group>"; };
+		7E1DB1FE1FB5B0AD00139979 /* AWSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AWSDKResources.bundle; sourceTree = "<group>"; };
+		7EA2B8F21F9C9D70002DC6E9 /* MGSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA2B8F61F9C9D70002DC6E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EA2B8F81F9C9D70002DC6E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EA2B8F91F9C9D70002DC6E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EA2B8FB1F9C9D70002DC6E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EA2B8FC1F9C9D70002DC6E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EA2B8FF1F9C9D70002DC6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EA2B9011F9C9D70002DC6E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EA2B9041F9C9D70002DC6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EA2B9061F9C9D70002DC6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA2B9111F9C9EA2002DC6E9 /* MGIAPTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGIAPTestViewController.h; sourceTree = "<group>"; };
+		7EA2B9121F9C9EA2002DC6E9 /* MGIAPTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGIAPTestViewController.m; sourceTree = "<group>"; };
+		7EA2B9131F9C9EA2002DC6E9 /* MGTestRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTestRootViewController.h; sourceTree = "<group>"; };
+		7EA2B9141F9C9EA2002DC6E9 /* MGTestRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTestRootViewController.m; sourceTree = "<group>"; };
+		7EA2B91D1F9CAEEC002DC6E9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7EA2B91F1F9CAF02002DC6E9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA2B8EF1F9C9D70002DC6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6955C323A8C74E0081EB90 /* AWSDK.framework in Frameworks */,
+				7EA2B9201F9CAF02002DC6E9 /* libc++.tbd in Frameworks */,
+				7EA2B91E1F9CAEEC002DC6E9 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E1DB1FC1FB5B0AD00139979 /* testsdk */ = {
+			isa = PBXGroup;
+			children = (
+				20E067902468EE38003D978E /* MGSalesAccountView.nib */,
+				0A6955C223A8C74E0081EB90 /* AWSDK.framework */,
+				7E1DB1FE1FB5B0AD00139979 /* AWSDKResources.bundle */,
+			);
+			path = testsdk;
+			sourceTree = "<group>";
+		};
+		7EA2B8E91F9C9D70002DC6E9 = {
+			isa = PBXGroup;
+			children = (
+				7EA2B8F41F9C9D70002DC6E9 /* MGSDKDemo */,
+				7EA2B8F31F9C9D70002DC6E9 /* Products */,
+				7EA2B91C1F9CAEEB002DC6E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA2B8F31F9C9D70002DC6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA2B8F21F9C9D70002DC6E9 /* MGSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA2B8F41F9C9D70002DC6E9 /* MGSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7E1DB1FC1FB5B0AD00139979 /* testsdk */,
+				7EA2B8F81F9C9D70002DC6E9 /* AppDelegate.h */,
+				7EA2B8F91F9C9D70002DC6E9 /* AppDelegate.m */,
+				7EA2B8FB1F9C9D70002DC6E9 /* ViewController.h */,
+				7EA2B8FC1F9C9D70002DC6E9 /* ViewController.m */,
+				7EA2B9111F9C9EA2002DC6E9 /* MGIAPTestViewController.h */,
+				7EA2B9121F9C9EA2002DC6E9 /* MGIAPTestViewController.m */,
+				7EA2B9131F9C9EA2002DC6E9 /* MGTestRootViewController.h */,
+				7EA2B9141F9C9EA2002DC6E9 /* MGTestRootViewController.m */,
+				7EA2B8FE1F9C9D70002DC6E9 /* Main.storyboard */,
+				7EA2B9011F9C9D70002DC6E9 /* Assets.xcassets */,
+				7EA2B9031F9C9D70002DC6E9 /* LaunchScreen.storyboard */,
+				7EA2B9061F9C9D70002DC6E9 /* Info.plist */,
+				7EA2B8F51F9C9D70002DC6E9 /* Supporting Files */,
+			);
+			path = MGSDKDemo;
+			sourceTree = "<group>";
+		};
+		7EA2B8F51F9C9D70002DC6E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EA2B8F61F9C9D70002DC6E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EA2B91C1F9CAEEB002DC6E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA2B91F1F9CAF02002DC6E9 /* libc++.tbd */,
+				7EA2B91D1F9CAEEC002DC6E9 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA2B8F11F9C9D70002DC6E9 /* MGSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA2B9091F9C9D70002DC6E9 /* Build configuration list for PBXNativeTarget "MGSDKDemo" */;
+			buildPhases = (
+				7EA2B8EE1F9C9D70002DC6E9 /* Sources */,
+				7EA2B8EF1F9C9D70002DC6E9 /* Frameworks */,
+				7EA2B8F01F9C9D70002DC6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSDKDemo;
+			productName = MGSDKDemo;
+			productReference = 7EA2B8F21F9C9D70002DC6E9 /* MGSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA2B8EA1F9C9D70002DC6E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MG;
+				TargetAttributes = {
+					7EA2B8F11F9C9D70002DC6E9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4V8V5AHGC2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 7EA2B8ED1F9C9D70002DC6E9 /* Build configuration list for PBXProject "MGSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 7EA2B8E91F9C9D70002DC6E9;
+			productRefGroup = 7EA2B8F31F9C9D70002DC6E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA2B8F11F9C9D70002DC6E9 /* MGSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA2B8F01F9C9D70002DC6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA2B9051F9C9D70002DC6E9 /* LaunchScreen.storyboard in Resources */,
+				7EA2B9021F9C9D70002DC6E9 /* Assets.xcassets in Resources */,
+				7E1DB2001FB5B0AD00139979 /* AWSDKResources.bundle in Resources */,
+				7EA2B9001F9C9D70002DC6E9 /* Main.storyboard in Resources */,
+				20E067912468EE38003D978E /* MGSalesAccountView.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA2B8EE1F9C9D70002DC6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA2B8FD1F9C9D70002DC6E9 /* ViewController.m in Sources */,
+				7EA2B9151F9C9EA2002DC6E9 /* MGIAPTestViewController.m in Sources */,
+				7EA2B8FA1F9C9D70002DC6E9 /* AppDelegate.m in Sources */,
+				7EA2B9161F9C9EA2002DC6E9 /* MGTestRootViewController.m in Sources */,
+				7EA2B8F71F9C9D70002DC6E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EA2B8FE1F9C9D70002DC6E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA2B8FF1F9C9D70002DC6E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EA2B9031F9C9D70002DC6E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA2B9041F9C9D70002DC6E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA2B9071F9C9D70002DC6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EA2B9081F9C9D70002DC6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA2B90A1F9C9D70002DC6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4V8V5AHGC2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MGSDKDemo/testsdk",
+					"$(PROJECT_DIR)/MGSDKDemo/MGSDK",
+				);
+				INFOPLIST_FILE = MGSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.2.0;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overseasgm.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9ef34285-f9c1-4902-b1bb-937de3c10262";
+				PROVISIONING_PROFILE_SPECIFIER = over_test;
+			};
+			name = Debug;
+		};
+		7EA2B90B1F9C9D70002DC6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4V8V5AHGC2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MGSDKDemo/testsdk",
+					"$(PROJECT_DIR)/MGSDKDemo/MGSDK",
+				);
+				INFOPLIST_FILE = MGSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.2.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overseasgm.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "50a57772-f719-45f7-9eb4-c6cff0c1ca4e";
+				PROVISIONING_PROFILE_SPECIFIER = over_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA2B8ED1F9C9D70002DC6E9 /* Build configuration list for PBXProject "MGSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA2B9071F9C9D70002DC6E9 /* Debug */,
+				7EA2B9081F9C9D70002DC6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA2B9091F9C9D70002DC6E9 /* Build configuration list for PBXNativeTarget "MGSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA2B90A1F9C9D70002DC6E9 /* Debug */,
+				7EA2B90B1F9C9D70002DC6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA2B8EA1F9C9D70002DC6E9 /* Project object */;
+}
